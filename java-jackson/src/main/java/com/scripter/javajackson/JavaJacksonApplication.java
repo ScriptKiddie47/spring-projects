@@ -6,6 +6,9 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.scripter.javajackson.objmapper.JacksonObjMapper;
+import com.scripter.javajackson.objmapper.JacksonTreeMapper;
+
 @SpringBootApplication
 public class JavaJacksonApplication implements CommandLineRunner{
 
@@ -20,8 +23,8 @@ public class JavaJacksonApplication implements CommandLineRunner{
 	@Override
 	public void run(String... args) throws Exception {
 		
-		log.info("Hello There");
-		
+		JacksonObjMapper.ob_mapper_obj_to_Json_String();
+		JacksonTreeMapper.obj_node();
 	}
 
 }
