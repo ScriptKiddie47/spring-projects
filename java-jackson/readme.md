@@ -1,0 +1,1 @@
+In this spring project , we will analyze different feature and functionality of JACKSON API with Java
